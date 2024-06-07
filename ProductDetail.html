@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./CSS/blinkit.css">
+    <link rel="stylesheet" href="./CSS/blinkmedia.css">
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand border-end logomain" href="#">
+        <img class="w-100" src="./img/BLINKIT_876a5ffa-38b0-4f7b-8c54-0c3b56d69c38.png"  alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown align-content-center">
+          <a class="nav-link pt-2 pb-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <h5>Delevery in 11 minutes</h5>
+            <p>Jaipur, Rajasthan, India <i class="fa-solid fa-caret-down ps-2"></i></p>
+          </a>
+          <ul class="dropdown-menu location-drop-down border rounded-0 p-3 bg-primary-subtle">
+            <h4>Change Location</h4>
+            <div class="d-flex justify-content-between align-items-center py-3">
+                 <button class="btn btn-success border-0 ">Detect my location</button>
+                 <span>OR</span>
+                 <input class="rounded border py-2 text-center" type="text" placeholder="search delivery location">   
+            </div>
+          </ul>
+        </li>  
+      </ul>
+      <form class="d-flex" role="search">
+        <div class="nav-form-inp">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="form-control me-2 ps-5" type="search" placeholder="Search" aria-label="Search">
+        </div>
+        <div class="mx-4">
+            <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+              </button>
+              <!-- Modal -->
+              <div class="modal fade my-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header d-grid px-5 py-3 text-center ">
+                        <div class="modal-img">
+                          <img class="rounded-4" src="./img/imagesinner.png" height="20%" width="20%">
+                        </div>
+                            <h2 class="fw-bold">India's last minute app</h2>
+                            <p>Log in or Sign up</p>
+                            <input class="rounded py-2 " type="number" name="" id="mobile-input" placeholder="Enter Mobile No.">
+                            <button class="border rounded-2 py-2 mt-3 continu-btn">Continue</button>
+                    </div>
+                    <p class="text-center fs-6">By continuing, you agree to our Terms of service & Privacy policy</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <button class="btn btn-outline-success" type="button" ><i class="fa-solid fa-cart-shopping"></i><span>My Cart</span></button>
+    </div>
+</form>
+</nav>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="cnvs">
+    <div class="offcanvas-header">
+        <h1>My Offcanwas</h1>
+    </div>
+</div>  
+   </header>
+  <main>
+    <section class="benner-section">
+            <div class="container">
+                <div class="row row-cols-2">
+                    <div class="col ps-5 border-bottom  ">
+                        <img  src="./img/bread big.jpg" alt="">
+                        <div class="row row-cols-6 p-4">
+                            <div class="col p-2 shadow rounded">
+                                <img src="./img/79c14c88-da9f-482d-8393-38f65756da08.jpg" alt=""> 
+                            </div>
+                            <div class="col p-2 shadow rounded">
+                                <img src="./img/1559242e-3ded-461a-8ab8-dc2efec86fb5 (1).jpg" alt="">
+                            </div>
+                            <div class="col p-2 shadow rounded">
+                            <img src="./img/24194b.jpg" alt="">
+                            </div>
+                            <div class="col shadow rounded">
+                                <img src="./img/24194c.jpg" alt="">
+                            </div>
+                            <div class="col p-2 shadow rounded">
+                                <img src="./img/24194d.jpg" alt="">
+                            </div>
+                            <div class="col p-2 shadow rounded">
+                                <img src="./img/24194e.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pt-5 px-5 border-start">
+                        <p class="fs-6">Home / Bread & Pav / <span class="text-secondary">Harvest Gold Hearty Brown Bread</span></p>
+                        <h2 class="fw-bold">Harvest Gold Hearty Brown Bread</h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container useful-links">
+        <div class="container py-5">
+            <h3>Useful Links</h3>
+            <div class="row row-cols-3 text-secondary">
+            <ul class="col lh-lg ">
+                <li>About</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Press</li>
+                <li>Lead</li>
+                <li>Value</li>
+            </ul>
+            <ul class="col lh-lg">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>FAQs</li>
+                <li>Security</li>
+                <li>Mobile</li>
+                <li>Contact</li>
+            </ul>
+            <ul class="col lh-lg">
+                <li>Partner</li>
+                <li>Express</li>
+                <li>Seller</li>
+                <li>Wherehouse</li>
+                <li>Deliver</li>
+                <li>Resource</li>
+            </ul> 
+        </div>
+        </div>
+        <div class="container py-5">
+            <h3>Categories <span class="text-success ps-4 fs-5">see all</span></h3>
+        <div class="row row-cols-3 text-secondary">
+        <ul class="col lh-lg">
+            <li>Vagitable & Fruits</li>
+            <li>Cold Drinks & Juice</li>
+            <li>Bakery & Biscuits</li>
+            <li>Dry Fruits, Masala & Oil</li>
+            <li>Paan Corner</li>
+            <li>Pharma & Wellness</li>
+            <li>Ice Creams & Frozen Dessert</li>
+            <li>Beauty & Cosmetics</li>
+            <li>Print Store</li>   
+        </ul>
+        <ul class="col lh-lg">
+            <li>Dairy & Breakfast</li>
+            <li>Instant & Frozen Food</li>
+            <li>Sweet Tooth</li>
+            <li>Sauces & Spreads</li>
+            <li>Organic & Premium</li>
+            <li>Cleaning Essentials</li>
+            <li>Personal Care</li>
+            <li>Books</li>
+        </ul>
+        <ul class="col lh-lg">
+            <li>Munchies</li>
+            <li>Tea, Coffee & Healthy Drinks</li>
+            <li>Atta, Rice & Dal</li>
+            <li>Chicken, Meat & Fish</li>
+            <li>Baby Care</li>
+            <li>Home & Office</li>
+            <li>Pet Care</li>
+            <li>Toy & Games</li>
+        </ul> 
+        </div>
+        </div>
+
+    </section>
+  </main>
+  <footer class="container">
+    <div class="container">
+         <div class="row row-cols-3 bg-light">
+            <div class="col align-content-center px-0"> 
+            <p class="pt-3 text-secondary">© Blink Commerce Private Limited (formerly known as Grofers India Private Limited), 2016-2024</p>
+            </div>
+            <div class="col d-flex align-items-center"> 
+               <p class="fs-6 pt-3 lh-lg mx-2 text-secondary">Download App</p>
+               <img src="./img/app.png" alt="" class="w-50" height="50%">
+            </div>
+            <div class="col align-content-center"> 
+               <ul class="d-flex justify-content-end align-items-center social-icon pt-3">
+                <li class="mx-3"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="mx-3"><i class="fa-brands fa-twitter"></i></li>
+                <li class="mx-3"><i class="fa-brands fa-instagram"></i></li>
+                <li class="mx-3"><i class="fa-brands fa-linkedin-in"></i></li>
+                <li class="mx-3"><i class="fa-brands fa-threads"></i></li>
+               </ul>
+             </div>
+         </div>
+         <div class="row-cols-1 bg-white mt-3">
+            <p class="text-secondary">“Blinkit” is owned & managed by "Blink Commerce Private Limited" (formerly known as Grofers India Private Limited) and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.</p>
+         </div>
+        
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
+<script src="./JS/blink.js"></script>
+<script>
+    $('#slide').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+</script>
+</body>
+</html
+
+
+ 
+
+             

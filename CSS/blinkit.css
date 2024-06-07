@@ -1,0 +1,95 @@
+*{
+    list-style: none;
+}
+
+.logomain{
+    width: 140px;
+}
+
+.location-drop-down{
+    width: 400px;
+    top: 108% !important;
+}
+
+.location-drop-down h4{
+    font-size: 16px;
+}
+
+.location-drop-down input{
+    font-size:14px; 
+}
+
+.location-drop-down span{
+ width: 25px;
+ height: 25px;
+ border-radius:50%;
+ border: 1px solid gray;
+ font-size: 12px;
+ line-height: 23px;
+ text-align: center;
+ color: gray;
+ font-weight: 500;
+ position: relative;
+}
+
+.location-drop-down span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 1px;
+    background-color: gray;
+    right: 100%;
+}
+
+
+.location-drop-down span::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 1px;
+    background-color: gray;
+    left: 100%;
+}
+
+
+.nav-form-inp{
+    width: 700px !important;
+    position: relative;
+}
+
+.nav-form-inp i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+
+.continu-btn{
+    background-color: rgb(156,156,156);
+    color: white;
+}
+
+.useful-links{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+}
+
+.social-icon li{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+footer >.container >.row >.col:first-child p{
+    font-size: 13px;
+}
